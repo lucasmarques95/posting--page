@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Postagem de Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <section>
+            <h1>Criar Post</h1>
+
+            <form id="form-post">
+                <input type="text" id="titulo" placeholder="Digite o título" required>
+
+                <textarea id="conteudo" placeholder="Digite o conteúdo" required></textarea>
+
+                <button type="submit">Postar</button>
+            </form>
+        </section>
+
+        <section>
+            <h1>Post Criado</h1>
+
+            <article>
+                <h2 id="renderizador-titulo"></h2>
+                <p id="renderizador-conteudo"></p>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
